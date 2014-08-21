@@ -3,7 +3,7 @@
 
 	"name": "Placebeard.it extension",
 	"description": "Replaces all images with pictures from placebeard.it",
-	"version": "0.2",
+	"version": "0.3",
 
 	"icons": { 
 		"16": "icon_16.jpg",
@@ -17,7 +17,7 @@
 
 	"content_scripts": [ {
 		"all_frames": true,
-		"js": [ "jquery.min.js", "magic.js" ],
+		"js": [ "magic.js" ],
 		"matches": [ "<all_urls>" ]
 	} ]
 }
